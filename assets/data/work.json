@@ -1,0 +1,26 @@
+[
+    {
+        "name": "First Light Diagnostics Inc.",
+        "url": "https://www.firstlightdx.com/",
+        "position": "Software Engineer",
+        "time": "2018 to Present",
+        "description": [
+            "Designed and Developed a Angular front-end application for a medical device which uses Web sockets to report the status of the sample being processed, an user interface to help the user insert the sample and to see the result of a processed sample.",
+            "Added features and maintained a Java Swing application which simulates the real medical device for testing the reliability of the device and to understand how it reacts to user events.",
+            "Wrote Verification tests as a part of FDA submission",
+            "Added new features and maintained a Python application which was used by the Systems Engineering team to test new hardware."
+        ]
+    },
+    {
+        "name": "Bank Of New York Mellon Technology",
+        "url": "https://www.bnymellon.com/",
+        "position": "Application Developer",
+        "time": "2015 to 2016",
+        "description": [
+            "Developed the application “Nexen”; a financial services platform by BNY Mellon using AngularJS and Spring.",
+            "Hands on experience with Jenkins (Continuous Integration Server) for building and testing the software, making it easier to integrate changes made to the code.",
+            "Coordinated with the Nexen UI team to develop the User Profiles page to allow clients to access and edit their personal information.",
+            "Practiced Test Driven Development: extensively used Protractor (End to End testing) and Karma (Unit testing)."
+        ]
+    }
+]

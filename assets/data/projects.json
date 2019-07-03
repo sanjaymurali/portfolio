@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Plagiarizer",
+        "url": "https://plagiarizer.herokuapp.com/",
+        "description": "Plagiarizer is a Plagiarism Detection Tool for Java",
+        "tags": [
+            "Java 8",
+            "Spring Boot",
+            "Angular 5",
+            "JUnit",
+            "Protractor"
+        ]
+    },
+    {
+        "name": "OAuthorizer",
+        "url": "https://oauthorizer.herokuapp.com/",
+        "description": "OAuthorizer is a OAuth 2.0 Server for fast and convenient way for users to login into their favorite apps across multiple platforms without the need for them to register in these individual apps.",
+        "tags": [
+            "NodeJS",
+            "AngularJS",
+            "ExpressJS",
+            "MongoDB",
+            "OAuth 2.0 Server"
+        ]
+    },
+    {
+        "name": "Web App Maker",
+        "url": "https://webapp-maker.herokuapp.com/",
+        "description": "Prototype your Website/Blog Quickly",
+        "tags": [
+            "NodeJS",
+            "AngularJS",
+            "ExpressJS",
+            "MongoDB",
+            "PassportJS"
+        ]
+    },
+    {
+        "name": "Entertainment-DB",
+        "url": "https://github.com/sanjaymurali/Entertainment-DB",
+        "description": "Your Source for Movie/TV series ratings and reviews",
+        "tags": [
+            "NodeJS",
+            "AngularJS",
+            "ExpressJS",
+            "MySQL",
+            "SequelizeJS"
+        ]
+    }
+]

@@ -1,73 +1,60 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <div class="text-xs-center">
-        <logo />
-        <vuetify-logo />
+    <v-container fill-height>
+      <div>
+      <div id="hello">Hello!</div>
+
+      <div class="headline mb-2">
+        I'm Sanjay Murali, a Software Developer and I love building for the web.
       </div>
-      <v-card>
-        <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>For more information on Vuetify, check out the <a
-            href="https://vuetifyjs.com"
-            target="_blank"
-          >documentation</a>.</p>
-          <p>If you have questions, please join the official <a
-            href="https://chat.vuetifyjs.com/"
-            target="_blank"
-            title="chat"
-          >discord</a>.</p>
-          <p>Find a bug? Report it on the github <a
-            href="https://github.com/vuetifyjs/vuetify/issues"
-            target="_blank"
-            title="contribute"
-          >issue board</a>.</p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >Nuxt Documentation</a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-          >Nuxt GitHub</a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            flat
-            nuxt
-            to="/inspire"
-          >Continue</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
+
+      <v-list dense class="d-inline-flex">
+        <v-list-tile class="home-v-list__first">
+          <a href="https://www.linkedin.com/in/sanjaymurali" target="_blank">
+            <font-awesome-icon :icon="['fab', 'linkedin']" class="headline"></font-awesome-icon>
+          </a>
+        </v-list-tile>
+        <v-list-tile>
+          <a href="https://github.com/sanjaymurali" target="_blank">
+            <font-awesome-icon :icon="['fab', 'github']" class="headline"></font-awesome-icon>
+          </a>
+        </v-list-tile>
+        <v-list-tile>
+          <a href="Sanjay_Murali-Resume.pdf" target="_blank">
+            <font-awesome-icon icon="file" class="headline"></font-awesome-icon>
+          </a>
+        </v-list-tile>
+        <v-list-tile>
+          <a href="mailto:murali.s@husky.neu.edu" target="_blank">
+            <font-awesome-icon icon="envelope" class="headline"></font-awesome-icon>
+          </a>
+        </v-list-tile>
+      </v-list>
+
+      </div>
+  </v-container>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
-}
+};
 </script>
+
+<style scoped>
+#hello {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.v-list {
+  background-color: transparent;
+}
+
+.v-list a {
+  color: black;
+}
+
+.v-list >>> .home-v-list__first .v-list__tile {
+  padding-left: 0;
+}
+</style>

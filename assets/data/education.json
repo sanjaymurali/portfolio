@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Northeastern University",
+        "degree": "Masters in Computer Science",
+        "attended": "2016 - 2018",
+        "specialization": "Software Engineering",
+        "subjects": [
+            {
+                "name": "Web Development",
+                "url": "https://github.com/sanjaymurali/OAuthorizer"
+            },
+            {
+                "name": "Managing Software Development",
+                "url": "https://github.com/sanjaymurali/Plagiarizer"
+            },
+            {
+                "name": "Artificial Intelligence",
+                "url": "https://github.com/sanjaymurali/sudoku-solver"
+            },
+            {
+                "name": "Human-Computer Interaction",
+                "url": ""
+            },
+            {
+                "name": "Programming Design Paradigms",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "name": "Anna University",
+        "degree": "Bachelors in Computer Science",
+        "attended": "2011 - 2015"
+    }
+]

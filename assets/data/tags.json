@@ -1,0 +1,14 @@
+{
+	"Java 8": "https://www.java.com/",
+	"Spring Boot": "https://spring.io/",
+	"Angular 5": "https://angular.io/",
+	"JUnit": "https://junit.org/",
+	"Protractor": "https://www.protractortest.org/",
+	"AngularJS": "https://angularjs.org/",
+	"ExpressJS": "https://expressjs.com/",
+	"MongoDB": "https://www.mongodb.com/",
+	"OAuth 2.0 Server": "https://www.oauth.com/",
+	"PassportJS": "http://www.passportjs.org/",
+	"MySQL": "https://www.mysql.com/",
+	"SequelizeJS": "http://docs.sequelizejs.com/"
+}
