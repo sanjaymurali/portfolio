@@ -5,7 +5,6 @@
     </v-layout>
     <v-navigation-drawer v-model="drawer" app mobile-break-point="769">
       <v-container fill-height>
-        <v-layout align-center >
         <v-list>
           <v-list-tile v-for="item in items" :key="item.title">
             <v-list-tile-action>
@@ -19,13 +18,7 @@
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
-        </v-layout>
-
-              <v-layout align-end justify-start>
-        <v-switch v-model="darkSwitch" v-on:change="emitSelection" label="Dark Mode"></v-switch>
-      </v-layout>
       </v-container>
-
     </v-navigation-drawer>
   </div>
 </template>
