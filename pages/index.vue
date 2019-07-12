@@ -1,11 +1,11 @@
 <template>
-    <v-container fill-height>
-      <div>
+  <v-container fill-height>
+    <div>
       <div id="hello">Hello!</div>
 
-      <div class="headline mb-2">
-        I'm Sanjay Murali, a Software Developer and I love building for the web.
-      </div>
+      <div
+        class="headline mb-2"
+      >I'm Sanjay Murali, a Software Developer and I love building for the web.</div>
 
       <v-list dense class="d-inline-flex">
         <v-list-tile class="home-v-list__first">
@@ -29,14 +29,12 @@
           </a>
         </v-list-tile>
       </v-list>
-
-      </div>
+    </div>
   </v-container>
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>
 
 <style scoped>
@@ -52,6 +50,10 @@ export default {
 
 .v-list a {
   color: black;
+}
+
+.theme--dark .v-list a {
+  color: white;
 }
 
 .v-list >>> .home-v-list__first .v-list__tile {

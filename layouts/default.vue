@@ -2,7 +2,7 @@
   <v-app v-bind:dark="dark">
     <NavBar v-on:selection="fromChild" />
     <v-content>
-      <nuxt/>
+      <nuxt />
     </v-content>
   </v-app>
 </template>
