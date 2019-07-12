@@ -3,9 +3,9 @@
     <div>
       <div id="hello">Hello!</div>
 
-      <div
-        class="headline mb-2"
-      >I'm Sanjay Murali, a Software Developer and I love building for the web.</div>
+      <div class="headline mb-2">
+        I'm Sanjay Murali, a Software Developer and I love building for the web.
+      </div>
 
       <v-list dense class="d-inline-flex">
         <v-list-tile class="home-v-list__first">

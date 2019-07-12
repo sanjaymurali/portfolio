@@ -6,18 +6,15 @@
         <span class="font-italic mr-3">{{work.position}}</span>
         <span>{{work.time}}</span>
       </div>
-        <ul>
-        <li v-for="(item, j) in work.description" v-bind:key="j">
-          {{item}}
-        </li>
-        </ul>
-
+      <ul>
+        <li v-for="(item, j) in work.description" v-bind:key="j">{{item}}</li>
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
-import information from '~/assets/data/work.json'
+import information from "~/assets/data/work.json";
 export default {
   name: "Work",
   data: () => ({

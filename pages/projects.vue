@@ -56,4 +56,8 @@ a {
 .v-chip {
   margin: 0;
 }
+
+.theme--dark a {
+  color: #3c91e6;
+}
 </style>

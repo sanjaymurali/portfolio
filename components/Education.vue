@@ -6,14 +6,16 @@
         <span class="font-italic mr-3">{{education.degree}}</span>
         <span>{{education.attended}}</span>
       </div>
-      <div class="subheading mb-1" v-if="education.specialization !== undefined">
+      <div class="subheading mb-1"
+        v-if="education.specialization !== undefined">
         Specializing in {{education.specialization}}
       </div>
       <div class="subheading" v-if="education.subjects !== undefined">
         Subjects:
         <span v-for="(subject, j) in education.subjects" v-bind:key="j">
           <a v-if="subject.url !== ''" :href="subject.url" target="_blank">{{subject.name}}</a>
-          <span v-else>{{subject.name}}</span>{{appendComma(j, education.subjects.length)}}
+          <span v-else>{{subject.name}}</span>
+          {{appendComma(j, education.subjects.length)}}
         </span>
       </div>
     </div>
