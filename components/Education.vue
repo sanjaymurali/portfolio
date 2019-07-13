@@ -13,7 +13,7 @@
       <div class="subheading" v-if="education.subjects !== undefined">
         Subjects:
         <span v-for="(subject, j) in education.subjects" v-bind:key="j">
-          <a v-if="subject.url !== ''" :href="subject.url" target="_blank">{{subject.name}}</a>
+          <a aria-label="Course website" rel="noopener" v-if="subject.url !== ''" :href="subject.url" target="_blank">{{subject.name}}</a>
           <span v-else>{{subject.name}}</span>
           {{appendComma(j, education.subjects.length)}}
         </span>

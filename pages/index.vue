@@ -3,29 +3,27 @@
     <div>
       <div id="hello">Hello!</div>
 
-      <div class="headline mb-2">
-        I'm Sanjay Murali, a Software Developer and I love building for the web.
-      </div>
+      <div class="headline mb-2">I'm Sanjay Murali, a Software Developer and I love building for the web.</div>
 
       <v-list dense class="d-inline-flex">
         <v-list-tile class="home-v-list__first">
-          <a href="https://www.linkedin.com/in/sanjaymurali" target="_blank">
-            <font-awesome-icon :icon="['fab', 'linkedin']" class="headline"></font-awesome-icon>
+          <a aria-label="Sanjay's LinkedIn" rel="noopener" class="headline" href="https://www.linkedin.com/in/sanjaymurali" target="_blank">
+            <span class="fab fa-linkedin"></span>
           </a>
         </v-list-tile>
         <v-list-tile>
-          <a href="https://github.com/sanjaymurali" target="_blank">
-            <font-awesome-icon :icon="['fab', 'github']" class="headline"></font-awesome-icon>
+          <a aria-label="Sanjay's GitHub" rel="noopener" class="headline" href="https://github.com/sanjaymurali" target="_blank">
+            <span class="fab fa-github"></span>
           </a>
         </v-list-tile>
         <v-list-tile>
-          <a href="Sanjay_Murali-Resume.pdf" target="_blank">
-            <font-awesome-icon icon="file" class="headline"></font-awesome-icon>
+          <a aria-label="Sanjay's Resume" rel="noopener" class="headline" href="Sanjay_Murali-Resume.pdf" target="_blank">
+            <span class="fas fa-file"></span>
           </a>
         </v-list-tile>
         <v-list-tile>
-          <a href="mailto:murali.s@husky.neu.edu" target="_blank">
-            <font-awesome-icon icon="envelope" class="headline"></font-awesome-icon>
+          <a aria-label="My Email Address" rel="noopener" class="headline" href="mailto:murali.s@husky.neu.edu" target="_blank">
+            <span class="fas fa-envelope"></span>
           </a>
         </v-list-tile>
       </v-list>

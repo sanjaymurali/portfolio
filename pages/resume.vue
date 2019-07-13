@@ -4,7 +4,9 @@
       <v-flex xs12 sm5>
         <v-card>
           <div class="px-3 py-2 mb-0 text-xs-left">
-            <font-awesome-icon class="headline mr-2" icon="university"></font-awesome-icon>
+            <span class="headline mr-2">
+              <i class="fas fa-university"></i>
+            </span>
             <span class="title">Education</span>
           </div>
         </v-card>
@@ -13,7 +15,9 @@
       <v-flex xs12 sm6 md6 offset-sm1>
         <v-card>
           <div class="px-3 py-2 mb-0 text-xs-left">
-            <font-awesome-icon class="headline mr-2" icon="laptop-code"></font-awesome-icon>
+            <span class="headline mr-2">
+              <i class="fas fa-laptop-code"></i>
+            </span>
             <span class="title">Work</span>
           </div>
         </v-card>

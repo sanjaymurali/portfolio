@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-layout hidden-md-and-up justify-left class="ml-2 mt-2">
-      <font-awesome-icon class="headline" icon="bars" @click.stop="drawer = !drawer"></font-awesome-icon>
+      <span class="headline" @click.stop="drawer = !drawer"><i class="fas fa-bars"></i></span>
     </v-layout>
 
     <v-navigation-drawer v-model="drawer" app mobile-break-point="769">
@@ -9,7 +9,7 @@
         <v-list>
           <v-list-tile v-for="item in items" :key="item.title">
             <v-list-tile-action>
-              <font-awesome-icon v-bind:icon="item.icon"></font-awesome-icon>
+              <span v-bind:class="item.icon"></span>
             </v-list-tile-action>
 
             <v-list-tile-content>
@@ -32,9 +32,9 @@ export default {
   name: "NavBar",
   data: () => ({
     items: [
-      { title: "Home", url: "/", icon: "home" },
-      { title: "Projects", url: "projects", icon: "briefcase" },
-      { title: "Resume", url: "resume", icon: "file" }
+      { title: "Home", url: "/", icon: "fas fa-home" },
+      { title: "Projects", url: "projects", icon: "fas fa-briefcase" },
+      { title: "Resume", url: "resume", icon: "fas fa-file" }
     ],
     drawer: null,
     darkSwitch: false

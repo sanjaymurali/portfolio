@@ -3,16 +3,18 @@
     <v-layout align-start justify-center column>
       <div class="my-3" v-for="(project, i) in projects" v-bind:key="i">
         <div class="display-1 mb-2">
-          <a v-bind:href="project.url" target="_blank">
+          <a aria-label="Sanjay's Project on GitHub" rel="noopener" v-bind:href="project.url" target="_blank">
             {{project.name}}
-            <font-awesome-icon class="headline" v-bind:icon="'arrow-right'"></font-awesome-icon>
+            <span class="headline">
+              <i class="fas fa-arrow-right"></i>
+            </span>
           </a>
         </div>
         <div class="subheading">{{project.description}}</div>
 
         <div class="d-inline-flex mr-2 mt-2" v-for="(tag,j) in project.tags" v-bind:key="j">
           <v-chip label outline color="secondary">
-            <a :href="tags_lookup[tag]" target="_blank">{{tag}}</a>
+            <a aria-label="Tags" rel="noopener" :href="tags_lookup[tag]" target="_blank">{{tag}}</a>
           </v-chip>
         </div>
       </div>
