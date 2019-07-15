@@ -1,3 +1,17 @@
+/* Global Stylesheet */
+a {
+  text-decoration: none;
+}
+
+.v-list a {
+  color: black;
+}
+
+.theme--dark .v-list a {
+  color: white;
+}
+
+
 .page-enter-active, .page-leave-active {
   transition: opacity .2s;
 }

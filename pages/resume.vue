@@ -3,7 +3,7 @@
     <v-layout align-start row wrap>
       <v-flex xs12 sm5>
         <v-card>
-          <div class="px-3 py-2 mb-0 text-xs-left">
+          <div class="px-3 mt-5 py-2 mb-0 text-xs-left">
             <span class="headline mr-2">
               <i class="fas fa-university"></i>
             </span>
@@ -14,7 +14,7 @@
       </v-flex>
       <v-flex xs12 sm6 md6 offset-sm1>
         <v-card>
-          <div class="px-3 py-2 mb-0 text-xs-left">
+          <div class="px-3 mt-5 py-2 mb-0 text-xs-left">
             <span class="headline mr-2">
               <i class="fas fa-laptop-code"></i>
             </span>
@@ -39,5 +39,5 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 </style>

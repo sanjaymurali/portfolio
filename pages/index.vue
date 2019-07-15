@@ -1,7 +1,7 @@
 <template>
   <v-container fill-height>
     <div>
-      <div id="hello">Hello!</div>
+      <div class="hello-message">Hello!</div>
 
       <div class="headline mb-2">I'm Sanjay Murali, a Software Developer and I love building for the web.</div>
 
@@ -36,7 +36,7 @@ export default {};
 </script>
 
 <style scoped>
-#hello {
+.hello-message {
   font-family: "Kalam", cursive;
   font-size: 40px;
   margin-bottom: 5px;
@@ -44,14 +44,6 @@ export default {};
 
 .v-list {
   background-color: transparent;
-}
-
-.v-list a {
-  color: black;
-}
-
-.theme--dark .v-list a {
-  color: white;
 }
 
 .v-list >>> .home-v-list__first .v-list__tile {

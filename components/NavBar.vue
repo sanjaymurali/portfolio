@@ -49,16 +49,6 @@ export default {
 </script>
 
 <style scoped>
-.v-list a {
-  text-decoration: none;
-  color: black;
-}
-
-.theme--dark .v-list a {
-  text-decoration: none;
-  color: white;
-}
-
 .align-bottom {
   bottom: 0;
   position: absolute;

@@ -35,10 +35,6 @@ export default {
 </script>
 
 <style scoped>
-a {
-  text-decoration: none;
-}
-
 .v-list {
   background: transparent;
 }

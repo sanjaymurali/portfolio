@@ -23,7 +23,7 @@ export default {
       { src: 'https://kit.fontawesome.com/8275012ba8.js' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' },
       {
         rel: 'stylesheet',
         href:

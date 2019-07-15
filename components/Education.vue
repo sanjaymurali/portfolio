@@ -14,8 +14,7 @@
         Subjects:
         <span v-for="(subject, j) in education.subjects" v-bind:key="j">
           <a aria-label="Course website" rel="noopener" v-if="subject.url !== ''" :href="subject.url" target="_blank">{{subject.name}}</a>
-          <span v-else>{{subject.name}}</span>
-          {{appendComma(j, education.subjects.length)}}
+          <span v-else>{{subject.name}}</span>{{appendComma(j, education.subjects.length)}}
         </span>
       </div>
     </div>
@@ -41,8 +40,5 @@ export default {
 };
 </script>
 
-<style scoped>
-a {
-  text-decoration: none;
-}
+<style>
 </style>
