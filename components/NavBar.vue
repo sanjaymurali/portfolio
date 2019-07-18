@@ -34,8 +34,8 @@ export default {
   data: () => ({
     items: [
       { title: "Home", url: "/", icon: "fas fa-home" },
-      { title: "Projects", url: "projects", icon: "fas fa-briefcase" },
-      { title: "Resume", url: "resume", icon: "fas fa-file" }
+      { title: "Projects", url: "/projects", icon: "fas fa-briefcase" },
+      { title: "Resume", url: "/resume", icon: "fas fa-file" }
     ],
     drawer: null,
     darkSwitch: false
