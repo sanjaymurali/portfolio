@@ -1,9 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  router: {
-    base: '/preview/'
-  },
   mode: 'universal',
   /*
   ** Headers of the page
