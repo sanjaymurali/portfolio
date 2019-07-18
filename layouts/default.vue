@@ -9,13 +9,16 @@
 
 <script>
 import NavBar from "~/components/NavBar.vue";
+
 export default {
   components: {
     NavBar
   },
+
   data: () => ({
     dark: false
   }),
+
   methods: {
     fromChild(selected) {
       this.dark = selected;

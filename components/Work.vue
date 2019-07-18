@@ -15,8 +15,10 @@
 
 <script>
 import information from "~/assets/data/work.json";
+
 export default {
   name: "Work",
+
   data: () => ({
     information: information
   })

@@ -30,8 +30,10 @@
 <script>
 import Education from "~/components/Education";
 import Work from "~/components/Work";
+
 export default {
   name: "Resume",
+
   components: {
     Education,
     Work

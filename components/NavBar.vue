@@ -30,6 +30,7 @@
 <script>
 export default {
   name: "NavBar",
+
   data: () => ({
     items: [
       { title: "Home", url: "/", icon: "fas fa-home" },
@@ -39,6 +40,7 @@ export default {
     drawer: null,
     darkSwitch: false
   }),
+
   methods: {
     emitSelection() {
       this.darkSwitch = !this.darkSwitch;

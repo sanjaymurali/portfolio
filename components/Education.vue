@@ -23,11 +23,14 @@
 
 <script>
 import education from "~/assets/data/education.json";
+
 export default {
   name: "Education",
+
   data: () => ({
     information: education
   }),
+
   methods: {
     appendComma(index, length) {
       if (index === length - 1) {

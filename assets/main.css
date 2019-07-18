@@ -11,6 +11,7 @@ a {
   color: white;
 }
 
+/* Page transitions */
 
 .page-enter-active, .page-leave-active {
   transition: opacity .2s;

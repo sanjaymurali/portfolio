@@ -25,8 +25,10 @@
 <script>
 import projects from "~/assets/data/projects.json";
 import tags from "~/assets/data/tags.json";
+
 export default {
   name: "Projects",
+
   data: () => ({
     projects: projects,
     tags_lookup: tags
